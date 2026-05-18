@@ -1,42 +1,19 @@
-# AI Nutritionist — Setup & Run Guide
+# NutriAI: An AI-Powered Personal Nutrition System
 
-## Step 1 — Install Libraries
-Open Terminal and run:
-```
-pip install streamlit pandas numpy scikit-learn matplotlib fuzzywuzzy python-Levenshtein
-```
+NutriAI is a locally deployed, machine-learning-powered personal nutrition analysis system built entirely in Python using Streamlit. It allows users to log meals, receive comprehensive nutritional breakdowns, and get an AI-generated diet quality score based on K-Nearest Neighbours (KNN) classification.
 
-## Step 2 — Download Dataset (Optional but recommended)
-Go to: https://www.kaggle.com/datasets/utsavdey1410/food-nutrition-dataset
-Download the CSV, rename it to: food_data.csv
-Place it in this same folder.
+## Features
+- **Extensive Food Database:** Dynamically loads 3,000 unique food items from a CSV dataset, featuring a massive variety of global and authentic Pakistani/Desi meals.
+- **Diet Quality Classification:** Uses a KNN model (k=3) with `StandardScaler` to classify daily intake into Excellent, Good, Poor, or Critical based on Daily Recommended Values.
+- **BMR-Based Diet Plans:** Automatically generates three personalized meal plans based on your weight, height, age, gender, and fitness goals.
+- **Multi-User System:** Local JSON-based authentication and persistent meal history tracking.
+- **Data Visualisation:** Real-time Matplotlib rendering for macro pie charts and nutrient bar charts.
 
-The app works WITHOUT the Kaggle dataset too (uses built-in Pakistani foods).
-
-## Step 3 — Run the App
-Open Terminal, navigate to this folder:
-```
-cd path/to/ai_nutritionist
-streamlit run app.py
-```
-
-Browser opens automatically at: http://localhost:8501
-
-## Files in This Project
-- app.py              → Main application (only file you need to run)
-- pakistani_foods.csv → 40 desi + common foods with nutrition data
-- food_data.csv       → (Optional) Kaggle dataset for more foods
-- requirements.txt    → All required libraries
-
-## How to Use
-1. Type a food name in the search box
-2. Select the correct food from dropdown
-3. Set the grams using the slider
-4. Click Add to Meal Log
-5. See your full nutrition analysis on the right
-
-## Project Info
-Student: Siyab Ahmed Khan
-SAP ID: 55051
-University: Riphah International University, Islamabad
-Course: Artificial Intelligence Lab
+## Project Structure
+```text
+├── app.py                    # Main application: UI, ML logic, and data management
+├── dataset_description.ipynb # Explanatory notebook of data and feature engineering
+├── pakistani_foods.csv       # Primary dataset containing 3,000 food items
+├── nutriai_users.json        # Auto-generated runtime storage for user accounts
+├── requirements.txt          # Python dependency list
+└── README.md                 # Setup and execution instructions
