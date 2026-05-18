@@ -1,0 +1,164 @@
+{
+  "SAK": {
+    "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+    "age": 21,
+    "gender": "Male",
+    "weight": 70,
+    "height": 170,
+    "goal": "Lose Weight",
+    "activity": "Moderately Active",
+    "history": {
+      "2026-05-18": {
+        "meals": [
+          {
+            "food": "Roti",
+            "category": "Desi",
+            "grams": 100,
+            "nutrition": {
+              "Calories": 264,
+              "Protein": 8.0,
+              "Fat": 3.7,
+              "Carbs": 53.0,
+              "Fiber": 2.7
+            },
+            "time": "13:41"
+          },
+          {
+            "food": "Boiled Eggs",
+            "category": "Breakfast",
+            "grams": 250,
+            "nutrition": {
+              "Calories": 155,
+              "Protein": 13.0,
+              "Fat": 11.0,
+              "Carbs": 1.1,
+              "Fiber": 0.0
+            },
+            "time": "13:42"
+          }
+        ],
+        "score": "Poor"
+      }
+    }
+  },
+  "IAK": {
+    "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "age": 21,
+    "gender": "Male",
+    "weight": 70,
+    "height": 170,
+    "goal": "Gain Muscle",
+    "activity": "Sedentary",
+    "history": {
+      "2026-05-18": {
+        "meals": [
+          {
+            "food": "Boiled Eggs",
+            "category": "Breakfast",
+            "grams": 100,
+            "nutrition": {
+              "Calories": 155,
+              "Protein": 13.0,
+              "Fat": 11.0,
+              "Carbs": 1.1,
+              "Fiber": 0.0
+            },
+            "time": "07:41"
+          },
+          {
+            "food": "Oatmeal",
+            "category": "Breakfast",
+            "grams": 150,
+            "nutrition": {
+              "Calories": 158,
+              "Protein": 6.0,
+              "Fat": 3.2,
+              "Carbs": 27.0,
+              "Fiber": 4.0
+            },
+            "time": "07:42"
+          },
+          {
+            "food": "Roti",
+            "category": "Desi",
+            "grams": 80,
+            "nutrition": {
+              "Calories": 264,
+              "Protein": 8.0,
+              "Fat": 3.7,
+              "Carbs": 53.0,
+              "Fiber": 2.7
+            },
+            "time": "07:42"
+          },
+          {
+            "food": "Aloo Gosht",
+            "category": "Desi",
+            "grams": 150,
+            "nutrition": {
+              "Calories": 175,
+              "Protein": 13.0,
+              "Fat": 10.0,
+              "Carbs": 9.0,
+              "Fiber": 1.2
+            },
+            "time": "07:42"
+          },
+          {
+            "food": "Carrot",
+            "category": "Fruits & Vegetables",
+            "grams": 50,
+            "nutrition": {
+              "Calories": 41,
+              "Protein": 0.9,
+              "Fat": 0.2,
+              "Carbs": 10.0,
+              "Fiber": 2.8
+            },
+            "time": "07:42"
+          },
+          {
+            "food": "Spinach",
+            "category": "Fruits & Vegetables",
+            "grams": 50,
+            "nutrition": {
+              "Calories": 23,
+              "Protein": 2.9,
+              "Fat": 0.4,
+              "Carbs": 3.6,
+              "Fiber": 2.2
+            },
+            "time": "07:43"
+          },
+          {
+            "food": "Mango",
+            "category": "Fruits & Vegetables",
+            "grams": 75,
+            "nutrition": {
+              "Calories": 60,
+              "Protein": 0.8,
+              "Fat": 0.4,
+              "Carbs": 15.0,
+              "Fiber": 1.6
+            },
+            "time": "07:43"
+          },
+          {
+            "food": "Soup",
+            "category": "Western",
+            "grams": 75,
+            "nutrition": {
+              "Calories": 75,
+              "Protein": 4.0,
+              "Fat": 2.0,
+              "Carbs": 10.0,
+              "Fiber": 1.5
+            },
+            "time": "07:43"
+          }
+        ],
+        "score": "Good"
+      }
+    }
+  }
+}
